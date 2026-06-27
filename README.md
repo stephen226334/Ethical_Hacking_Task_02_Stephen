@@ -91,7 +91,7 @@ Shows successful installation of Nmap.
 
 File:
 ```
-Screenshots/01_install.png
+(Screenshots/01_install.png)
 ```
 
 ---
