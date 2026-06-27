@@ -1,0 +1,140 @@
+_________________________________________________________
+ETHICAL HACKING TASK 02
+NETWORK SCANNING & SERVICE ENUMERATION
+_________________________________________________________
+Name           : Stephen J
+Task           : Ethical Hacking Task 02
+Tool Used      : Nmap
+Operating System : Ubuntu Linux
+Scan Date      : 26-06-2026
+
+_________________________________________________________
+TARGET SYSTEM
+_________________________________________________________
+
+Target Host : localhost (127.0.0.1)
+
+_________________________________________________________
+OBJECTIVE
+_________________________________________________________
+
+The objective of this task is to understand the Network
+Scanning and Service Enumeration phase of Ethical
+Hacking using the Nmap tool. The task focuses on
+identifying open ports, running services, service
+versions, and operating system information safely on
+an authorized system.
+
+_________________________________________________________
+COMMANDS USED
+_________________________________________________________
+1. nmap --version
+
+Purpose:
+Verify that Nmap is installed correctly.
+
+---------------------------------------------------------
+
+2. nmap localhost
+
+Purpose:
+Scan localhost and identify open ports.
+
+---------------------------------------------------------
+
+3. nmap -sV localhost
+
+Purpose:
+Detect running service versions.
+
+---------------------------------------------------------
+
+4. sudo nmap -O localhost
+
+Purpose:
+Identify the operating system using OS fingerprinting.
+
+_________________________________________________________
+OPEN PORTS
+_________________________________________________________
+
+
+Example
+
+Port        State       Service
+
+22/tcp      Open        SSH
+80/tcp      Open        HTTP
+631/tcp     Open        IPP
+
+_________________________________________________________
+RUNNING SERVICES
+_________________________________________________________
+
+• SSH
+• HTTP
+• IPP (Printing Service)
+
+_________________________________________________________
+SERVICE VERSION INFORMATION
+_________________________________________________________
+
+Port      Service      Version
+
+22        SSH          OpenSSH
+80        HTTP         Apache
+631       IPP          CUPS
+
+_________________________________________________________
+OPERATING SYSTEM
+_________________________________________________________
+
+Operating System Detected:
+Ubuntu Linux
+
+OS Detection Status:
+Successful
+
+_________________________________________________________
+OBSERVATIONS
+_________________________________________________________
+• Nmap successfully scanned the localhost.
+• Open ports were identified.
+• Running services were detected.
+• Service version detection provided additional
+  information.
+• Operating system fingerprinting successfully
+  identified the system.
+• No unauthorized systems were scanned.
+
+_________________________________________________________
+RECOMMENDATIONS
+_________________________________________________________
+• Close unused ports.
+• Disable unnecessary services.
+• Keep software updated.
+• Use strong passwords.
+• Enable firewall protection.
+• Regularly perform security scans.
+• Remove unused applications.
+
+_________________________________________________________
+CONCLUSION
+_________________________________________________________
+This task provided practical experience with network
+scanning and service enumeration using Nmap. I learned
+how to identify active hosts, open ports, running
+services, service versions, and operating system
+details. Understanding open ports helps identify
+potential security risks and unnecessary services that
+may increase the attack surface of a system. Service
+version detection helps administrators determine whether
+applications require updates or security patches. OS
+fingerprinting assists security professionals in
+planning vulnerability assessments by identifying the
+target operating system. Overall, this task improved my
+understanding of safe scanning techniques and reinforced
+the importance of performing scans only on authorized
+systems while following ethical hacking principles.
+
+______________________END ___________________________

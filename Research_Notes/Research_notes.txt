@@ -1,0 +1,246 @@
+=========================================================
+          ETHICAL HACKING TASK 02
+             RESEARCH NOTES
+=========================================================
+
+What is Network Scanning?
+
+Network scanning is the process of discovering active
+devices, open ports, running services, and operating
+systems on a network. It is one of the most important
+steps in ethical hacking and penetration testing.
+
+---------------------------------------------------------
+
+What is Nmap?
+
+Nmap (Network Mapper) is an open-source security tool
+used for network discovery and security auditing. It
+helps identify active hosts, open ports, service
+versions, and operating system information.
+
+---------------------------------------------------------
+
+Common Nmap Commands
+
+nmap --version
+Checks the installed version of Nmap.
+
+nmap localhost
+Scans the local computer for open ports.
+
+nmap -sV localhost
+Detects service versions running on open ports.
+
+sudo nmap -O localhost
+Attempts to detect the operating system.
+
+---------------------------------------------------------
+
+Common Ports
+
+Port 20/21
+Protocol : FTP
+Purpose  : File Transfer
+Risk     : Transfers data without encryption.
+
+---------------------------------------------------------
+
+Port 22
+
+Protocol : SSH
+
+Purpose  : Secure Remote Login
+
+Risk
+
+Weak passwords may allow brute-force attacks.
+
+---------------------------------------------------------
+
+Port 23
+
+Protocol : Telnet
+
+Purpose
+
+Remote Login
+
+Risk
+
+Communication is not encrypted.
+
+---------------------------------------------------------
+
+Port 25
+
+Protocol : SMTP
+
+Purpose
+
+Email Transfer
+
+Risk
+
+Spam relay and email spoofing.
+
+---------------------------------------------------------
+
+Port 53
+
+Protocol
+
+DNS
+
+Purpose
+
+Domain Name Resolution
+
+Risk
+
+DNS spoofing and amplification attacks.
+
+---------------------------------------------------------
+
+Port 80
+
+Protocol
+
+HTTP
+
+Purpose
+
+Website Communication
+
+Risk
+
+Data is transmitted without encryption.
+
+---------------------------------------------------------
+
+Port 110
+
+Protocol
+
+POP3
+
+Purpose
+
+Receive Emails
+
+Risk
+
+Credentials may be intercepted.
+
+---------------------------------------------------------
+
+Port 143
+
+Protocol
+
+IMAP
+
+Purpose
+
+Access Emails
+
+Risk
+
+Weak authentication.
+
+---------------------------------------------------------
+
+Port 443
+
+Protocol
+
+HTTPS
+
+Purpose
+
+Secure Website Communication
+
+Risk
+
+SSL/TLS misconfiguration.
+
+---------------------------------------------------------
+
+Port 445
+
+Protocol
+
+SMB
+
+Purpose
+
+Windows File Sharing
+
+Risk
+
+Ransomware attacks and SMB exploits.
+
+---------------------------------------------------------
+
+Port 3389
+
+Protocol
+
+RDP
+
+Purpose
+
+Remote Desktop Access
+
+Risk
+
+Brute-force attacks and unauthorized access.
+
+---------------------------------------------------------
+
+Importance of Service Enumeration
+
+Service enumeration helps identify software running on
+a system, making it easier to determine outdated or
+vulnerable services that require updates or security
+patches.
+
+---------------------------------------------------------
+
+Importance of OS Detection
+
+Operating system detection identifies the target
+system's operating system, helping security
+professionals perform accurate vulnerability
+assessments and penetration testing.
+
+---------------------------------------------------------
+
+Security Best Practices
+
+• Close unused ports.
+
+• Disable unnecessary services.
+
+• Keep software updated.
+
+• Use strong passwords.
+
+• Enable firewall protection.
+
+• Monitor network activity.
+
+• Perform regular security assessments.
+
+=========================================================
+Learning Outcome
+=========================================================
+
+This task improved my understanding of network scanning,
+service enumeration, service version detection, and
+operating system fingerprinting using Nmap. I learned
+how ethical hackers safely collect network information
+while ensuring all scans are performed only on
+authorized systems.
+
+====================== END ======================
