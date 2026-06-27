@@ -1,188 +1,190 @@
 # Ethical Hacking Task 02
 ## Network Scanning & Service Enumeration
 
-Student Information
+---
 
+## Student Information
 
-Name        : Stephen J
-Internship  : White Band Associates
-Task        : Ethical Hacking Task 02
-Topic       : Network Scanning & Service Enumeration
-Tool Used   : Nmap
-Operating System : Ubuntu Linux
+**Name:** Stephen J  
+**Internship:** White Band Associates  
+**Task:** Ethical Hacking Task 02  
+**Topic:** Network Scanning & Service Enumeration  
+**Operating System:** Ubuntu Linux  
+**Tool Used:** Nmap
 
+---
 
-Objective
+# Objective
 
+The objective of this task is to understand the Network Scanning and Service Enumeration phase of Ethical Hacking. Using Nmap, this task demonstrates how to identify active hosts, open ports, running services, service versions, and operating system information in a safe and authorized environment.
 
-The objective of this task is to learn the fundamentals
-of network scanning and service enumeration using Nmap.
-The task demonstrates how to identify open ports,
-running services, service versions, and operating system
-information in a safe and authorized environment.
+---
 
+# Software Requirements
 
-Software & Tools Used
+- Ubuntu Linux
+- Nmap
+- Terminal
+- Git
+- GitHub
 
-• Ubuntu Linux
-• Nmap
-• Terminal
-• GitHub
+---
 
-=========================================================
-Commands Executed
-=========================================================
+# Commands Executed
 
-1. Verify Nmap Installation
+## 1. Verify Nmap Installation
 
-Command:
+```bash
 nmap --version
+```
 
-Purpose:
-Checks whether Nmap is installed successfully.
+**Purpose:**  
+Verifies that Nmap is installed successfully.
 
----------------------------------------------------------
+---
 
-2. Localhost Scan
+## 2. Scan Local Machine
 
-Command:
+```bash
 nmap localhost
+```
 
-Purpose:
-Scans the local machine to identify open ports and
-running services.
+or
 
----------------------------------------------------------
+```bash
+nmap 127.0.0.1
+```
 
-3. Service Version Detection
+**Purpose:**  
+Scans the localhost and displays open ports and running services.
 
-Command:
+---
+
+## 3. Service Version Detection
+
+```bash
 nmap -sV localhost
+```
 
-Purpose:
-Displays the version of services running on open ports.
+**Purpose:**  
+Detects the version information of services running on open ports.
 
----------------------------------------------------------
+---
 
-4. Operating System Detection
+## 4. Operating System Detection
 
-Command:
+```bash
 sudo nmap -O localhost
+```
 
-Purpose:
-Attempts to identify the operating system of the target.
+**Purpose:**  
+Attempts to identify the operating system using OS fingerprinting.
 
-=========================================================
-Screenshots
-=========================================================
+---
 
-Screenshot 1
-Title : Nmap Installation
+# Screenshots
 
-Description:
-Shows that Nmap has been successfully installed.
+The following screenshots are included in the **Screenshots** folder.
 
-Image:
+### Screenshot 1 – Nmap Installation
+Shows successful installation of Nmap.
+
+File:
+```
 Screenshots/01_Nmap_Installation.png
+```
 
----------------------------------------------------------
+---
 
-Screenshot 2
-Title : Nmap Version
-
-Description:
+### Screenshot 2 – Nmap Version
 Displays the installed version of Nmap.
 
-Image:
+File:
+```
 Screenshots/02_Nmap_Version.png
+```
 
----------------------------------------------------------
+---
 
-Screenshot 3
-Title : Localhost Scan
+### Screenshot 3 – Localhost Scan
+Shows the open ports and running services detected on localhost.
 
-Description:
-Shows the list of open ports and running services
-detected on localhost.
-
-Image:
+File:
+```
 Screenshots/03_Localhost_Scan.png
+```
 
----------------------------------------------------------
+---
 
-Screenshot 4
-Title : Service Version Detection
+### Screenshot 4 – Service Version Detection
+Shows the version details of detected services.
 
-Description:
-Shows the detected versions of running services.
-
-Image:
+File:
+```
 Screenshots/04_Service_Version.png
+```
 
----------------------------------------------------------
+---
 
-Screenshot 5
-Title : Operating System Detection
+### Screenshot 5 – Operating System Detection
+Shows the operating system identified by Nmap.
 
-Description:
-Shows the operating system detected using Nmap.
-
-Image:
+File:
+```
 Screenshots/05_OS_Detection.png
+```
 
-=========================================================
-Project Folder Structure
-=========================================================
+---
 
-Ethical_Hacking_Task_02_Stephen_J/
+# Project Folder Structure
 
-│── README.md
-│── Scan_Report.pdf
-│── Research_Notes.txt
-│── Screenshots/
-│   ├── 01_Nmap_Installation.png
-│   ├── 02_Nmap_Version.png
-│   ├── 03_Localhost_Scan.png
-│   ├── 04_Service_Version.png
-│   └── 05_OS_Detection.png
+```
+Ethical_Hacking_Task_02_Stephen_J
+│
+├── README.md
+├── Scan_Report.pdf
+├── Research_Notes.txt
+└── Screenshots
+    ├── 01_Nmap_Installation.png
+    ├── 02_Nmap_Version.png
+    ├── 03_Localhost_Scan.png
+    ├── 04_Service_Version.png
+    └── 05_OS_Detection.png
+```
 
-=========================================================
-Learning Outcomes
-=========================================================
+---
 
-• Learned how to install and verify Nmap.
-• Understood how to perform a localhost scan.
-• Identified open ports and running services.
-• Learned service version detection.
-• Understood operating system fingerprinting.
-• Improved knowledge of safe and ethical network scanning.
+# Learning Outcomes
 
-=========================================================
-Conclusion
-=========================================================
+After completing this task, I was able to:
 
-This task provided practical experience with Nmap and
-its scanning capabilities. I learned how to identify
-open ports, detect running services, perform service
-version detection, and identify the operating system.
-The task also highlighted the importance of securing
-unnecessary open ports and regularly monitoring systems
-for potential vulnerabilities. Most importantly, I
-understood that network scanning should always be
-performed responsibly and only on systems for which
-proper authorization has been obtained.
+- Install and verify Nmap successfully.
+- Perform a basic network scan on localhost.
+- Identify open ports and running services.
+- Detect service version information.
+- Perform operating system detection.
+- Understand the importance of network scanning in ethical hacking.
+- Learn safe and authorized scanning practices.
 
-=========================================================
-GitHub Repository
-=========================================================
+---
 
-Upload the following files to your GitHub repository:
+# Conclusion
 
-✔ README.md
-✔ Scan_Report.pdf
-✔ Research_Notes.txt
-✔ Screenshots Folder
+This task provided practical experience with the Nmap network scanning tool. I learned how to discover open ports, identify running services, detect service versions, and perform operating system fingerprinting. The task also emphasized the importance of securing unnecessary open ports, regularly monitoring systems, and following ethical hacking principles by scanning only authorized systems.
 
-=========================================================
-End of README
-=========================================================
+---
+
+# Repository Contents
+
+- README.md
+- Scan_Report.pdf
+- Research_Notes.txt
+- Screenshots Folder
+
+---
+
+## Author
+
+**Stephen J**
+
+**White Band Associates – Ethical Hacking Internship**
