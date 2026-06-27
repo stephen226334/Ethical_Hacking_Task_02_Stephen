@@ -1,9 +1,8 @@
 # Ethical Hacking Task 02
 ## Network Scanning & Service Enumeration
 
-=========================================================
 Student Information
-=========================================================
+
 
 Name        : Stephen J
 Internship  : White Band Associates
@@ -12,9 +11,9 @@ Topic       : Network Scanning & Service Enumeration
 Tool Used   : Nmap
 Operating System : Ubuntu Linux
 
-=========================================================
+
 Objective
-=========================================================
+
 
 The objective of this task is to learn the fundamentals
 of network scanning and service enumeration using Nmap.
@@ -22,9 +21,8 @@ The task demonstrates how to identify open ports,
 running services, service versions, and operating system
 information in a safe and authorized environment.
 
-=========================================================
+
 Software & Tools Used
-=========================================================
 
 • Ubuntu Linux
 • Nmap
