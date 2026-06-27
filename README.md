@@ -89,15 +89,19 @@ The following screenshots are included in the **Screenshots** folder.
 ### Screenshot 1 – Nmap Installation
 Shows successful installation of Nmap.
 
+File:
+```
+Screenshots/01_Nmap_Installation.png
+```
 
-![installation](Screenshots/01_install.png)
+---
 
 ### Screenshot 2 – Nmap Version
 Displays the installed version of Nmap.
 
 File:
 ```
-Screenshots/02_version.png
+Screenshots/02_Nmap_Version.png
 ```
 
 ---
@@ -107,7 +111,7 @@ Shows the open ports and running services detected on localhost.
 
 File:
 ```
-Screenshots/03_scan.png
+Screenshots/03_Localhost_Scan.png
 ```
 
 ---
@@ -117,7 +121,7 @@ Shows the version details of detected services.
 
 File:
 ```
-Screenshots/04_service_Version.png
+Screenshots/04_Service_Version.png
 ```
 
 ---
@@ -127,7 +131,7 @@ Shows the operating system identified by Nmap.
 
 File:
 ```
-![Screenshots/05_detection.png]
+Screenshots/05_OS_Detection.png
 ```
 
 ---
