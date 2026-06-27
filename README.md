@@ -89,12 +89,8 @@ The following screenshots are included in the **Screenshots** folder.
 ### Screenshot 1 – Nmap Installation
 Shows successful installation of Nmap.
 
-File:
-```
-![installation](Screenshots/01_install.png)
-```
 
----
+![installation](Screenshots/01_install.png)
 
 ### Screenshot 2 – Nmap Version
 Displays the installed version of Nmap.
