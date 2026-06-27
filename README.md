@@ -131,7 +131,7 @@ Shows the operating system identified by Nmap.
 
 File:
 ```
-Screenshots/05_detection.png
+![Screenshots/05_detection.png]
 ```
 
 ---
